@@ -18,7 +18,6 @@ class ThirdFightingVC: UIViewController {
     var progressSlider = UISlider()
     
     override func viewDidLoad() {
-        view.backgroundColor = .white
         view.addSubviews(gradientCircularProgressBar)
         
         gradientCircularProgressBar.snp.makeConstraints {

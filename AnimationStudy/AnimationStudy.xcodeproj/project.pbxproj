@@ -10,7 +10,6 @@
 		09089A632B024C39006C07B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09089A622B024C39006C07B8 /* SecondViewController.swift */; };
 		09089A662B0252AF006C07B8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 09089A652B0252AF006C07B8 /* SnapKit */; };
 		092DC53F2B143DC7008746A6 /* ThirdFightingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC53E2B143DC7008746A6 /* ThirdFightingVC.swift */; };
-		092DC5412B143F56008746A6 /* BezierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC5402B143F56008746A6 /* BezierVC.swift */; };
 		092DC5432B1441CC008746A6 /* GradientCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC5422B1441CC008746A6 /* GradientCircularProgressBar.swift */; };
 		09BA868F2B0A34ED00BF85D9 /* SecondFightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA868E2B0A34ED00BF85D9 /* SecondFightingViewController.swift */; };
 		2C5199A92AF3CD67006DCBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5199A82AF3CD67006DCBF5 /* AppDelegate.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		09089A622B024C39006C07B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		092DC53E2B143DC7008746A6 /* ThirdFightingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFightingVC.swift; sourceTree = "<group>"; };
-		092DC5402B143F56008746A6 /* BezierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierVC.swift; sourceTree = "<group>"; };
 		092DC5422B1441CC008746A6 /* GradientCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircularProgressBar.swift; sourceTree = "<group>"; };
 		09BA868E2B0A34ED00BF85D9 /* SecondFightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFightingViewController.swift; sourceTree = "<group>"; };
 		2C5199A52AF3CD67006DCBF5 /* AnimationStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				092DC53E2B143DC7008746A6 /* ThirdFightingVC.swift */,
-				092DC5402B143F56008746A6 /* BezierVC.swift */,
 				092DC5422B1441CC008746A6 /* GradientCircularProgressBar.swift */,
 			);
 			path = Week3;
@@ -195,7 +192,6 @@
 				2C5199AD2AF3CD67006DCBF5 /* FirstFightingViewController.swift in Sources */,
 				2CC2ABAE2AF52C0500418A7C /* Extension.swift in Sources */,
 				09BA868F2B0A34ED00BF85D9 /* SecondFightingViewController.swift in Sources */,
-				092DC5412B143F56008746A6 /* BezierVC.swift in Sources */,
 				092DC53F2B143DC7008746A6 /* ThirdFightingVC.swift in Sources */,
 				2C5199A92AF3CD67006DCBF5 /* AppDelegate.swift in Sources */,
 				09089A632B024C39006C07B8 /* SecondViewController.swift in Sources */,
