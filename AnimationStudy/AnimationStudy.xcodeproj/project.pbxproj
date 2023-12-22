@@ -9,9 +9,16 @@
 /* Begin PBXBuildFile section */
 		09089A632B024C39006C07B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09089A622B024C39006C07B8 /* SecondViewController.swift */; };
 		09089A662B0252AF006C07B8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 09089A652B0252AF006C07B8 /* SnapKit */; };
+		092C81752B346542006B0F65 /* InstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092C81742B346542006B0F65 /* InstagramVC.swift */; };
 		092DC53F2B143DC7008746A6 /* ThirdFightingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC53E2B143DC7008746A6 /* ThirdFightingVC.swift */; };
 		092DC5432B1441CC008746A6 /* GradientCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC5422B1441CC008746A6 /* GradientCircularProgressBar.swift */; };
+		092DC54B2B14BFA0008746A6 /* Transform3DChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC54A2B14BFA0008746A6 /* Transform3DChangeViewController.swift */; };
+		092DC54D2B14C0C2008746A6 /* Transform3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DC54C2B14C0C2008746A6 /* Transform3DViewController.swift */; };
+		093A8C902B35F648001C1AD7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 093A8C8F2B35F648001C1AD7 /* RxCocoa */; };
+		093A8C922B35F648001C1AD7 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 093A8C912B35F648001C1AD7 /* RxRelay */; };
+		093A8C942B35F648001C1AD7 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 093A8C932B35F648001C1AD7 /* RxSwift */; };
 		09BA868F2B0A34ED00BF85D9 /* SecondFightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA868E2B0A34ED00BF85D9 /* SecondFightingViewController.swift */; };
+		09CF1DC02B35DC0200F8492C /* InstagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF1DBF2B35DC0200F8492C /* InstagramView.swift */; };
 		2C5199A92AF3CD67006DCBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5199A82AF3CD67006DCBF5 /* AppDelegate.swift */; };
 		2C5199AB2AF3CD67006DCBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5199AA2AF3CD67006DCBF5 /* SceneDelegate.swift */; };
 		2C5199AD2AF3CD67006DCBF5 /* FirstFightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5199AC2AF3CD67006DCBF5 /* FirstFightingViewController.swift */; };
@@ -22,9 +29,13 @@
 
 /* Begin PBXFileReference section */
 		09089A622B024C39006C07B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		092C81742B346542006B0F65 /* InstagramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramVC.swift; sourceTree = "<group>"; };
 		092DC53E2B143DC7008746A6 /* ThirdFightingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFightingVC.swift; sourceTree = "<group>"; };
 		092DC5422B1441CC008746A6 /* GradientCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircularProgressBar.swift; sourceTree = "<group>"; };
+		092DC54A2B14BFA0008746A6 /* Transform3DChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3DChangeViewController.swift; sourceTree = "<group>"; };
+		092DC54C2B14C0C2008746A6 /* Transform3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3DViewController.swift; sourceTree = "<group>"; };
 		09BA868E2B0A34ED00BF85D9 /* SecondFightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFightingViewController.swift; sourceTree = "<group>"; };
+		09CF1DBF2B35DC0200F8492C /* InstagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramView.swift; sourceTree = "<group>"; };
 		2C5199A52AF3CD67006DCBF5 /* AnimationStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5199A82AF3CD67006DCBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C5199AA2AF3CD67006DCBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093A8C902B35F648001C1AD7 /* RxCocoa in Frameworks */,
 				2C5199BE2AF3CDE7006DCBF5 /* Then in Frameworks */,
+				093A8C942B35F648001C1AD7 /* RxSwift in Frameworks */,
+				093A8C922B35F648001C1AD7 /* RxRelay in Frameworks */,
 				09089A662B0252AF006C07B8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +70,15 @@
 			path = Week2;
 			sourceTree = "<group>";
 		};
+		092C81732B346527006B0F65 /* Week5 */ = {
+			isa = PBXGroup;
+			children = (
+				092C81742B346542006B0F65 /* InstagramVC.swift */,
+				09CF1DBF2B35DC0200F8492C /* InstagramView.swift */,
+			);
+			path = Week5;
+			sourceTree = "<group>";
+		};
 		092DC53D2B143DA9008746A6 /* Week3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +86,15 @@
 				092DC5422B1441CC008746A6 /* GradientCircularProgressBar.swift */,
 			);
 			path = Week3;
+			sourceTree = "<group>";
+		};
+		092DC5492B14BF8B008746A6 /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				092DC54A2B14BFA0008746A6 /* Transform3DChangeViewController.swift */,
+				092DC54C2B14C0C2008746A6 /* Transform3DViewController.swift */,
+			);
+			path = Week4;
 			sourceTree = "<group>";
 		};
 		2C51999C2AF3CD67006DCBF5 = {
@@ -88,6 +120,8 @@
 				2C5199C42AF3DB61006DCBF5 /* Week1 */,
 				09089A612B024C17006C07B8 /* Week2 */,
 				092DC53D2B143DA9008746A6 /* Week3 */,
+				092DC5492B14BF8B008746A6 /* Week4 */,
+				092C81732B346527006B0F65 /* Week5 */,
 				2C5199B12AF3CD69006DCBF5 /* Assets.xcassets */,
 				2C5199B62AF3CD69006DCBF5 /* Info.plist */,
 			);
@@ -131,6 +165,9 @@
 			packageProductDependencies = (
 				2C5199BD2AF3CDE7006DCBF5 /* Then */,
 				09089A652B0252AF006C07B8 /* SnapKit */,
+				093A8C8F2B35F648001C1AD7 /* RxCocoa */,
+				093A8C912B35F648001C1AD7 /* RxRelay */,
+				093A8C932B35F648001C1AD7 /* RxSwift */,
 			);
 			productName = AnimationStudy;
 			productReference = 2C5199A52AF3CD67006DCBF5 /* AnimationStudy.app */;
@@ -163,6 +200,7 @@
 			packageReferences = (
 				2C5199BC2AF3CDE7006DCBF5 /* XCRemoteSwiftPackageReference "Then" */,
 				09089A642B0252AF006C07B8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				093A8C8E2B35F648001C1AD7 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 2C5199A62AF3CD67006DCBF5 /* Products */;
 			projectDirPath = "";
@@ -193,10 +231,14 @@
 				2CC2ABAE2AF52C0500418A7C /* Extension.swift in Sources */,
 				09BA868F2B0A34ED00BF85D9 /* SecondFightingViewController.swift in Sources */,
 				092DC53F2B143DC7008746A6 /* ThirdFightingVC.swift in Sources */,
+				092DC54B2B14BFA0008746A6 /* Transform3DChangeViewController.swift in Sources */,
 				2C5199A92AF3CD67006DCBF5 /* AppDelegate.swift in Sources */,
+				092DC54D2B14C0C2008746A6 /* Transform3DViewController.swift in Sources */,
 				09089A632B024C39006C07B8 /* SecondViewController.swift in Sources */,
 				2C5199AB2AF3CD67006DCBF5 /* SceneDelegate.swift in Sources */,
+				092C81752B346542006B0F65 /* InstagramVC.swift in Sources */,
 				092DC5432B1441CC008746A6 /* GradientCircularProgressBar.swift in Sources */,
+				09CF1DC02B35DC0200F8492C /* InstagramView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +454,14 @@
 				minimumVersion = 5.6.0;
 			};
 		};
+		093A8C8E2B35F648001C1AD7 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
 		2C5199BC2AF3CDE7006DCBF5 /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
@@ -427,6 +477,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 09089A642B0252AF006C07B8 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		093A8C8F2B35F648001C1AD7 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 093A8C8E2B35F648001C1AD7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		093A8C912B35F648001C1AD7 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 093A8C8E2B35F648001C1AD7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		093A8C932B35F648001C1AD7 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 093A8C8E2B35F648001C1AD7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 		2C5199BD2AF3CDE7006DCBF5 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
