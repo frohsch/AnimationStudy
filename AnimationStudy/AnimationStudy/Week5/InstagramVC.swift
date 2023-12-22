@@ -76,12 +76,13 @@ extension InstagramVC {
             return image.cgImage
         }()
         
-        cell.birthRate = 5
-        cell.lifetime = 10
-        cell.scale = 0.3
-        cell.yAcceleration = 50
-        cell.alphaSpeed = -0.2
+        cell.birthRate = 3
+        cell.lifetime = 8.0
+        cell.scale = 0.46
+        cell.yAcceleration = 70
+        cell.alphaSpeed = -0.3
         cell.emissionLongitude = .pi * 0.0
+        cell.speed = 2.0
 
         
         let emitterLayer = CAEmitterLayer()
